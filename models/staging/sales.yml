@@ -1,0 +1,45 @@
+version: 2
+sources:
+  - name: public
+    tables: 
+      - name: sales
+        columns: 
+            - name: ORDER_NUMBER
+              data_type: VARCHAR(0, 0)
+              quote: true
+
+            - name: PROD_CODE
+              data_type: VARCHAR(0, 0)
+              quote: true
+
+            - name: CUST_CODE
+              data_type: VARCHAR(0, 0)
+              quote: true
+
+            - name: SALE_DATE
+              data_type: VARCHAR(0, 0)
+              quote: true
+
+            - name: CHANNEL_CODE
+              data_type: VARCHAR(0, 0)
+              quote: true
+
+            - name: PROMO_CODE
+              data_type: VARCHAR(0, 0)
+              quote: true
+
+            - name: QUANTITY_SOLD
+              data_type: VARCHAR(0, 0)
+              quote: true
+
+            - name: AMOUNT_SOLD
+              data_type: VARCHAR(0, 0)
+              quote: true
+
+            - name: INSERT_DT
+              data_type: VARCHAR(0, 0)
+              quote: true
+
+            - name: LAST_UPDATE_DT
+              data_type: VARCHAR(0, 0)
+              quote: true                    

@@ -1,0 +1,5 @@
+version: 2
+sources:
+    - name: infor_dbt_item
+      tables:
+         - name: item_data

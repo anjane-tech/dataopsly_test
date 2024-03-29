@@ -1,0 +1,5 @@
+version: 2
+sources:
+    - name: infor_dbt_dimensions
+      tables: 
+        - name: tracking_history  
