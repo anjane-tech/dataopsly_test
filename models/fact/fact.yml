@@ -1,0 +1,69 @@
+version: 2
+
+models:
+  - name: fact
+    description: combination of all dimension tables
+    columns: 
+          - name: md5_hash
+            data_type: VARCHAR(0, 0)
+            description: "md5_hash"
+            quote: False
+            tests:
+              - not_null
+              - unique
+
+          - name: unique_cust_id
+            data_type: VARCHAR(0, 0)
+            description: "unique_cust_id"
+            quote: False
+            tests:
+              - not_null
+              - unique
+
+          - name: unique_prod_id
+            data_type: VARCHAR(0, 0)
+            description: "unique_prod_id"
+            quote: False
+            tests:
+              - not_null
+              - unique
+
+          - name: unique_seller_id
+            data_type: VARCHAR(0, 0)
+            description: "unique_seller_id"
+            quote: False
+            tests:
+              - not_null
+              - unique
+
+          - name: unique_vendor_id
+            data_type: VARCHAR(0, 0)
+            description: "unique_vendor_id"
+            quote: False
+            tests:
+              - not_null
+              - unique   
+
+          - name: order_id
+            data_type: VARCHAR(0, 0)
+            description: "order_id"
+            quote: False
+            tests:
+              - not_null
+              - unique 
+
+          - name: price
+            data_type: VARCHAR(0, 0)
+            description: "price"
+            quote: False
+            tests:
+              - not_null
+              - unique 
+
+          - name: quantity
+            data_type: VARCHAR(0, 0)
+            description: "quantity"
+            quote: False
+            tests:
+              - not_null
+              - unique                                

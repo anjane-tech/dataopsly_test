@@ -1,0 +1,61 @@
+version: 2
+
+models:
+  - name: dim_vendor
+    description: vendor details
+    columns: 
+          - name: vendor_id
+            data_type: VARCHAR(0, 0)
+            description: "vendor_id"
+            quote: False
+            tests:
+              - not_null
+              - unique
+
+          - name: vendor_name
+            data_type: VARCHAR(0, 0)
+            description: "vendor_name"
+            quote: False
+            tests:
+              - not_null
+              - unique
+
+          - name: product_id
+            data_type: VARCHAR(0, 0)
+            description: "product_id"
+            quote: False
+            tests:
+              - not_null
+              - unique
+
+          - name: suit_number
+            data_type: VARCHAR(0, 0)
+            description: "suit_number"
+            quote: False
+            tests:
+              - not_null
+              - unique
+
+          - name: quantity
+            data_type: VARCHAR(0, 0)
+            description: "quantity"
+            quote: False
+            tests:
+              - not_null
+              - unique   
+
+          - name: current_date
+            data_type: VARCHAR(0, 0)
+            description: "current_date"
+            quote: False
+            tests:
+              - not_null
+              - unique 
+
+          - name: unique_vendor_id
+            data_type: VARCHAR(0, 0)
+            description: "unique_vendor_id"
+            quote: False
+            tests:
+              - not_null
+              - unique                            

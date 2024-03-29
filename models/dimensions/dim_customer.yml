@@ -1,0 +1,44 @@
+version: 2
+
+models:
+  - name: dim_customer
+    description: customer details
+    columns: 
+          - name: full_name
+            data_type: VARCHAR(0, 0)
+            description: "full_name"
+            quote: False
+            tests:
+              - not_null
+              - unique
+
+          - name: customer_id
+            data_type: VARCHAR(0, 0)
+            description: "customer_id"
+            quote: False
+            tests:
+              - not_null
+              - unique
+
+          - name: date_of_birth
+            data_type: VARCHAR(0, 0)
+            description: "date_of_birth"
+            quote: False
+            tests:
+              - not_null
+
+          - name: current_date
+            data_type: VARCHAR(0, 0)
+            description: "current_date"
+            quote: False
+            tests:
+              - not_null
+              - unique
+
+          - name: unique_cust_id
+            data_type: VARCHAR(0, 0)
+            description: "unique_cust_id"
+            quote: False
+            tests:
+              - not_null
+              - unique                

@@ -1,0 +1,10 @@
+version: 2
+seeds: 
+  - name: customer
+    config:
+      +schema: seed
+      alias: customer_csv
+      column_types:
+        full_name: VARCHAR
+        customer_id: VARCHAR
+        date_of_birth: VARCHAR

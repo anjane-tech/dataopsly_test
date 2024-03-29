@@ -1,0 +1,22 @@
+version: 2
+
+models:
+      - name: stage_customer
+        description: customer details
+        columns: 
+            - name: full_name
+              description: full_name
+              data_type: VARCHAR(0, 0)
+              quote: true
+        
+        columns: 
+            - name: customer_id
+              description: customer_id
+              data_type: VARCHAR(0, 0)
+              quote: true
+
+        columns: 
+            - name: date_of_birth
+              description: date_of_birth
+              data_type: VARCHAR(0, 0)
+              quote: true

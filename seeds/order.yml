@@ -1,0 +1,13 @@
+version: 2
+seeds: 
+  - name: order
+    config:
+      +schema: seed
+      alias: order_csv
+      column_types:
+        order_name: VARCHAR
+        order_id: VARCHAR
+        customer_id: VARCHAR
+        product_id: VARCHAR
+        suit_number: VARCHAR
+        vendor_id: VARCHAR

@@ -1,0 +1,69 @@
+version: 2
+
+models:
+  - name: dim_seller
+    description: seller details
+    columns: 
+          - name: suit_number
+            data_type: VARCHAR(0, 0)
+            description: "suit_number"
+            quote: False
+            tests:
+              - not_null
+              - unique
+
+          - name: seller_name
+            data_type: VARCHAR(0, 0)
+            description: "seller_name"
+            quote: False
+            tests:
+              - not_null
+              - unique
+
+          - name: product_id
+            data_type: VARCHAR(0, 0)
+            description: "product_id"
+            quote: False
+            tests:
+              - not_null
+              - unique
+
+          - name: seller_amount
+            data_type: VARCHAR(0, 0)
+            description: "seller_amount"
+            quote: False
+            tests:
+              - not_null
+              - unique
+
+          - name: order_id
+            data_type: VARCHAR(0, 0)
+            description: "order_id"
+            quote: False
+            tests:
+              - not_null
+              - unique   
+
+          - name: platform
+            data_type: VARCHAR(0, 0)
+            description: "platform"
+            quote: False
+            tests:
+              - not_null
+              - unique 
+
+          - name: current_date
+            data_type: VARCHAR(0, 0)
+            description: "current_date"
+            quote: False
+            tests:
+              - not_null
+              - unique  
+
+          - name: unique_seller_id
+            data_type: VARCHAR(0, 0)
+            description: "unique_seller_id"
+            quote: False
+            tests:
+              - not_null
+              - unique                          

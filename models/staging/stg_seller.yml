@@ -1,0 +1,35 @@
+version: 2
+
+
+models:
+      - name: stage_seller
+        columns: 
+            - name: suit_number
+              description: suit_number
+              data_type: VARCHAR(0, 0)
+              quote: true
+
+            - name: seller_name
+              description: seller_name
+              data_type: VARCHAR(0, 0)
+              quote: true
+
+            - name: product_id
+              description: product_id
+              data_type: VARCHAR(0, 0)
+              quote: true
+
+            - name: seller_amount
+              description: seller_amount
+              data_type: VARCHAR(0, 0)
+              quote: true
+
+            - name: order_id
+              description: order_id
+              data_type: VARCHAR(0, 0)
+              quote: true
+
+            - name: platform
+              description: platform
+              data_type: VARCHAR(0, 0)
+              quote: true

@@ -1,0 +1,35 @@
+version: 2
+
+
+models:
+      - name: stage_orders
+        columns: 
+            - name: order_name
+              description: order_name
+              data_type: VARCHAR(0, 0)
+              quote: true
+
+            - name: order_id
+              description: order_id
+              data_type: VARCHAR(0, 0)
+              quote: true
+
+            - name: customer_id
+              description: customer_id
+              data_type: VARCHAR(0, 0)
+              quote: true
+
+            - name: product_id
+              description: product_id
+              data_type: VARCHAR(0, 0)
+              quote: true
+
+            - name: suit_number
+              description: suit_number
+              data_type: VARCHAR(0, 0)
+              quote: true
+
+            - name: vendor_id
+              description: vendor_id
+              data_type: VARCHAR(0, 0)
+              quote: true

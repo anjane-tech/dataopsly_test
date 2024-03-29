@@ -1,0 +1,13 @@
+version: 2
+seeds: 
+  - name: vendor
+    config:
+      +schema: seed
+      alias: vendor_csv
+      column_types:
+        vendor_id: VARCHAR
+        vendor_name: VARCHAR
+        product_id: VARCHAR
+        suit_number: VARCHAR
+        quantity: INTEGER
+      
