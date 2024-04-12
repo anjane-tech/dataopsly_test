@@ -37,6 +37,7 @@ seeds:
     enabled: true
     schema: seeds
 models:
+  +transient: false
   drop_shipping:
     # Config indicated by + and applies to all files under models/example/
     

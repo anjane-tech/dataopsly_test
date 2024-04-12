@@ -1,8 +1,0 @@
-version: 2
-
-sources:
-  - name: source_sf
-    database: dbt_test    
-    schema: source  
-    tables:
-      - name: sample_table
